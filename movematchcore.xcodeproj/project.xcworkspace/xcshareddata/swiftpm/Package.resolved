@@ -1,0 +1,51 @@
+{
+  "originHash" : "15ad033d8c76b423d6034f099700e486433d1ba79de5247b010be78fa80f21c5",
+  "pins" : [
+    {
+      "identity" : "elegant-emoji-picker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Finalet/Elegant-Emoji-Picker",
+      "state" : {
+        "branch" : "main",
+        "revision" : "71d2d46092b4d550cc593614efc06438f845f6e6"
+      }
+    },
+    {
+      "identity" : "keychainaccess",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kishikawakatsumi/KeychainAccess",
+      "state" : {
+        "revision" : "84e546727d66f1adc5439debad16270d0fdd04e7",
+        "version" : "4.2.2"
+      }
+    },
+    {
+      "identity" : "supabase-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/supabase-community/supabase-swift.git",
+      "state" : {
+        "revision" : "ff883c94d7752179a23161f41f2a74eeb9b47140",
+        "version" : "2.5.1"
+      }
+    },
+    {
+      "identity" : "swift-concurrency-extras",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swift-concurrency-extras",
+      "state" : {
+        "revision" : "bb5059bde9022d69ac516803f4f227d8ac967f71",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "46072478ca365fe48370993833cb22de9b41567f",
+        "version" : "3.5.2"
+      }
+    }
+  ],
+  "version" : 3
+}

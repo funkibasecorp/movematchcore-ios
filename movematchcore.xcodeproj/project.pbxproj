@@ -6,6 +6,16 @@
 	objectVersion = 70;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3C5D5B002C5C3A1E00D841F2 /* ElegantEmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 3C5D5AFF2C5C3A1E00D841F2 /* ElegantEmojiPicker */; };
+		3C5D5B212C5C423D00D841F2 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 3C5D5B202C5C423D00D841F2 /* Auth */; };
+		3C5D5B232C5C423D00D841F2 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 3C5D5B222C5C423D00D841F2 /* Functions */; };
+		3C5D5B252C5C423D00D841F2 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 3C5D5B242C5C423D00D841F2 /* PostgREST */; };
+		3C5D5B272C5C423D00D841F2 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 3C5D5B262C5C423D00D841F2 /* Realtime */; };
+		3C5D5B292C5C423D00D841F2 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 3C5D5B282C5C423D00D841F2 /* Storage */; };
+		3C5D5B2B2C5C423D00D841F2 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3C5D5B2A2C5C423D00D841F2 /* Supabase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3C5D597E2C5C329900D841F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -40,6 +50,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5D5B2B2C5C423D00D841F2 /* Supabase in Frameworks */,
+				3C5D5B292C5C423D00D841F2 /* Storage in Frameworks */,
+				3C5D5B252C5C423D00D841F2 /* PostgREST in Frameworks */,
+				3C5D5B232C5C423D00D841F2 /* Functions in Frameworks */,
+				3C5D5B212C5C423D00D841F2 /* Auth in Frameworks */,
+				3C5D5B272C5C423D00D841F2 /* Realtime in Frameworks */,
+				3C5D5B002C5C3A1E00D841F2 /* ElegantEmojiPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +84,7 @@
 				3C5D59802C5C329900D841F2 /* movematchcoreTests */,
 				3C5D598A2C5C329900D841F2 /* movematchcoreUITests */,
 				3C5D596B2C5C329800D841F2 /* Products */,
+				3C5D5B132C5C3E1500D841F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +96,13 @@
 				3C5D59872C5C329900D841F2 /* movematchcoreUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3C5D5B132C5C3E1500D841F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +125,13 @@
 			);
 			name = movematchcore;
 			packageProductDependencies = (
+				3C5D5AFF2C5C3A1E00D841F2 /* ElegantEmojiPicker */,
+				3C5D5B202C5C423D00D841F2 /* Auth */,
+				3C5D5B222C5C423D00D841F2 /* Functions */,
+				3C5D5B242C5C423D00D841F2 /* PostgREST */,
+				3C5D5B262C5C423D00D841F2 /* Realtime */,
+				3C5D5B282C5C423D00D841F2 /* Storage */,
+				3C5D5B2A2C5C423D00D841F2 /* Supabase */,
 			);
 			productName = movematchcore;
 			productReference = 3C5D596A2C5C329800D841F2 /* movematchcore.app */;
@@ -183,6 +215,10 @@
 				Base,
 			);
 			mainGroup = 3C5D59612C5C329800D841F2;
+			packageReferences = (
+				3C5D5AFE2C5C3A1E00D841F2 /* XCRemoteSwiftPackageReference "Elegant-Emoji-Picker" */,
+				3C5D5B1F2C5C423D00D841F2 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 3C5D596B2C5C329800D841F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -570,6 +606,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3C5D5AFE2C5C3A1E00D841F2 /* XCRemoteSwiftPackageReference "Elegant-Emoji-Picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Finalet/Elegant-Emoji-Picker";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
+		};
+		3C5D5B1F2C5C423D00D841F2 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C5D5AFF2C5C3A1E00D841F2 /* ElegantEmojiPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C5D5AFE2C5C3A1E00D841F2 /* XCRemoteSwiftPackageReference "Elegant-Emoji-Picker" */;
+			productName = ElegantEmojiPicker;
+		};
+		3C5D5B202C5C423D00D841F2 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C5D5B1F2C5C423D00D841F2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		3C5D5B222C5C423D00D841F2 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C5D5B1F2C5C423D00D841F2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		3C5D5B242C5C423D00D841F2 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C5D5B1F2C5C423D00D841F2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		3C5D5B262C5C423D00D841F2 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C5D5B1F2C5C423D00D841F2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		3C5D5B282C5C423D00D841F2 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C5D5B1F2C5C423D00D841F2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		3C5D5B2A2C5C423D00D841F2 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C5D5B1F2C5C423D00D841F2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3C5D59622C5C329800D841F2 /* Project object */;
 }

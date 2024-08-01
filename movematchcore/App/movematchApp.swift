@@ -6,9 +6,10 @@
 //
 
 import SwiftUI
+import Foundation
 
 @main
-struct movematchApp: App {
+struct movematchcoreApp: App {
     @StateObject var themeManager = ThemeManager.shared
     
     var body: some Scene {
